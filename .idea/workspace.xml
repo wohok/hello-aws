@@ -4,18 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="390e6b66-9b58-43ad-af09-c03b26ae6515" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    <list default="true" id="390e6b66-9b58-43ad-af09-c03b26ae6515" name="Changes" comment="TEST CODE">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/web/dto/HelloResponseDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/HelloControllerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/dto/HelloResponseDtoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,6 +28,9 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -68,6 +69,13 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -75,7 +83,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2FelRrYt0Ym8oQ7dAEVq9JIWnz7" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -83,9 +93,111 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "WebServerToolWindowFactoryState": "false",
+    "project.structure.last.edited": "Problems",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.projectsettings.compiler.annotationProcessors",
     "spring.configuration.checksum": "31873614812da62fa22f8746cb6de0c6"
   }
 }]]></component>
+  <component name="RunManager" selected="JUnit.HelloControllerTest.helloDto가_리턴된다">
+    <configuration name="HelloControllerTest.hello가_리턴된다" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;HelloControllerTest.hello가_리턴된다&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="HelloControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-aws.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.HelloControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloControllerTest.helloDto가_리턴된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-aws.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.HelloControllerTest" />
+      <option name="METHOD_NAME" value="helloDto가_리턴된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloControllerTest.hello가_리턴된다" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-aws.test" />
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.HelloControllerTest" />
+      <option name="METHOD_NAME" value="hello가_리턴된다" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HelloResponseDtoTest.롬복_기능_테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-aws.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.springboot.web.dto.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web.dto" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.dto.HelloResponseDtoTest" />
+      <option name="METHOD_NAME" value="롬복_기능_테스트" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="hello-aws.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jojoldu.book.springboot.Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HelloControllerTest.helloDto가_리턴된다" />
+        <item itemvalue="JUnit.HelloResponseDtoTest.롬복_기능_테스트" />
+        <item itemvalue="JUnit.HelloControllerTest" />
+        <item itemvalue="JUnit.HelloControllerTest.hello가_리턴된다" />
+        <item itemvalue="Gradle.HelloControllerTest.hello가_리턴된다" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -95,8 +207,16 @@
       <option name="presentableId" value="Default" />
       <updated>1664860426746</updated>
       <workItem from="1664860429555" duration="3490000" />
-      <workItem from="1664866448695" duration="286000" />
+      <workItem from="1664866448695" duration="10798000" />
     </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1664867137432</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1664867137433</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,5 +232,25 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="TEST CODE" />
+    <option name="LAST_COMMIT_MESSAGE" value="TEST CODE" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/jojoldu/book/springboot/web/HelloControllerTest.java</url>
+          <line>30</line>
+          <properties class="com.jojoldu.book.springboot.web.HelloControllerTest" method="helloDto가_리턴된다">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
