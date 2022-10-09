@@ -19,13 +19,19 @@ public class PostsApiController {
         // Entity 클래스를 Request/Response 클래스로 사용해서는 안된다.
     }
 
-    @PostMapping("/api/v1/posts/{id}") // {id} = @PathVariable
+    @PutMapping("/api/v1/posts/{id}") // {id} = @PathVariable
     public Long update(@PathVariable Long id, @RequestBody PostsUpdateRequestDto requestDto) {
         return postsService.update(id, requestDto);
     }
 
     @GetMapping("/api/v1/posts/{id}")
     public PostsResponseDto findById(@PathVariable Long id) {
+
         return postsService.findById(id);
+    }
+
+    @DeleteMapping("/api/v1/posts/{id}") // {id} = @PathVariable
+    public Long delete(@PathVariable Long id) {
+        return postsService.delete(id);
     }
 }
