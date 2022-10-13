@@ -11,7 +11,6 @@ sourceCompatibility = 1.8
 // 각종 의존성(라이브러리)들을 어떤 원격 저장소에서 받을지를 정한다.
 repositories {
     mavenCentral()  // 이전부터 많이 사용하는 저장소, 라이브러리 업로드 불편
-    jcenter()       // 라이브러리 업로드를 간단한 저장소, mavenCentral에도 업로드 자동화
 }
 
 // for Junit 5
