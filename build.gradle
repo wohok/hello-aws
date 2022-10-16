@@ -4,9 +4,15 @@ plugins {
     id 'java'
 }
 
-group 'com.jojoldu.book'
-version '1.0-SNAPSHOT'
-sourceCompatibility = 1.8
+group = 'com.jojoldu.book'
+version = '1.0-SNAPSHOT'
+sourceCompatibility = '1.8'
+
+configurations {
+    compileOnly {
+        extendsFrom annotationProcessor
+    }
+}
 
 // 각종 의존성(라이브러리)들을 어떤 원격 저장소에서 받을지를 정한다.
 repositories {
@@ -14,19 +20,22 @@ repositories {
 }
 
 // for Junit 5
-test { // (2)
+tasks.named('test') {
     useJUnitPlatform()
 }
 
 // 프로젝트 개발에 필요한 의존성들을 선언하는 곳
 dependencies {
-    implementation('org.springframework.boot:spring-boot-starter-web')
-    implementation('org.projectlombok:lombok')
-    implementation('org.springframework.boot:spring-boot-starter-data-jpa')
-    implementation('org.springframework.boot:spring-boot-starter-mustache')
-    implementation('com.h2database:h2')
-    implementation('org.springframework.boot:spring-boot-starter-oauth2-client')
-    implementation('org.springframework.session:spring-session-jdbc')
-    testImplementation('org.springframework.security:spring-security-test')
-    testImplementation('org.springframework.boot:spring-boot-starter-test')
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    compileOnly 'org.projectlombok:lombok'
+    annotationProcessor 'org.projectlombok:lombok'
+    implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    implementation 'org.springframework.boot:spring-boot-starter-mustache'
+    implementation 'com.h2database:h2'
+    implementation 'org.springframework.boot:spring-boot-starter-oauth2-client'
+    implementation 'org.springframework.session:spring-session-jdbc'
+    testImplementation 'org.springframework.security:spring-security-test'
+    testImplementation 'org.springframework.boot:spring-boot-starter-test'
+    testCompileOnly 'org.projectlombok:lombok' // 테스트 의존성 추가
+    testAnnotationProcessor 'org.projectlombok:lombok' // 테스트 의존성 추가
 }
