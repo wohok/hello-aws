@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="390e6b66-9b58-43ad-af09-c03b26ae6515" name="Changes" comment="머스테치로 화면 구성하기">
+    <list default="true" id="390e6b66-9b58-43ad-af09-c03b26ae6515" name="Changes" comment="test 컴파일 시 롬복 에러 건 조치">
+      <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
@@ -216,7 +217,21 @@
       <option name="project" value="LOCAL" />
       <updated>1665328379894</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="test 컴파일 시 롬복 에러 건 조치">
+      <created>1665912029222</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1665912029222</updated>
+    </task>
+    <task id="LOCAL-00006" summary="test 컴파일 시 롬복 에러 건 조치">
+      <created>1665912154228</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1665912154228</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +253,7 @@
     <MESSAGE value="TEST CODE" />
     <MESSAGE value="JPA" />
     <MESSAGE value="머스테치로 화면 구성하기" />
-    <option name="LAST_COMMIT_MESSAGE" value="머스테치로 화면 구성하기" />
+    <MESSAGE value="test 컴파일 시 롬복 에러 건 조치" />
+    <option name="LAST_COMMIT_MESSAGE" value="test 컴파일 시 롬복 에러 건 조치" />
   </component>
 </project>
