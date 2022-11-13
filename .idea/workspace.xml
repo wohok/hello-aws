@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="390e6b66-9b58-43ad-af09-c03b26ae6515" name="Changes" comment="deploy 기능 추가">
+    <list default="true" id="390e6b66-9b58-43ad-af09-c03b26ae6515" name="Changes" comment="배포 자동화 기능 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +192,7 @@
       <workItem from="1665286748601" duration="49818000" />
       <workItem from="1666491840235" duration="686000" />
       <workItem from="1666561715499" duration="16530000" />
-      <workItem from="1668297109330" duration="7351000" />
+      <workItem from="1668297109330" duration="8515000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1664867137432</created>
@@ -347,7 +348,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668310650711</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="배포 자동화 기능 추가">
+      <created>1668341593742</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668341593742</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -378,6 +386,7 @@
     <MESSAGE value="requests 확인 후 main 수정" />
     <MESSAGE value="s3 업로드 기능 추가" />
     <MESSAGE value="deploy 기능 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="deploy 기능 추가" />
+    <MESSAGE value="배포 자동화 기능 추가" />
+    <option name="LAST_COMMIT_MESSAGE" value="배포 자동화 기능 추가" />
   </component>
 </project>
