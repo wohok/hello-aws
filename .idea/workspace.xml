@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="390e6b66-9b58-43ad-af09-c03b26ae6515" name="Changes" comment="배포 자동화 기능 추가">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scripts/deploy.sh" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/deploy.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jojoldu/book/springboot/config/auth/SecurityConfig.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +91,7 @@
     &quot;spring.configuration.checksum&quot;: &quot;31873614812da62fa22f8746cb6de0c6&quot;
   }
 }</component>
-  <component name="RunManager" selected="Spring Boot.Application">
+  <component name="RunManager" selected="JUnit.ProfileControllerTest">
     <configuration name="hello-aws [test]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -114,22 +112,6 @@
       <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
-    </configuration>
-    <configuration name="All in hello-aws.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-aws.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in hello-aws.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-aws.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
     </configuration>
     <configuration name="All in hello-aws.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello-aws.test" />
@@ -154,6 +136,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProfileControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-aws.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.ProfileControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileControllerUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-aws.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jojoldu.book.springboot.web.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.jojoldu.book.springboot.web" />
+      <option name="MAIN_CLASS_NAME" value="com.jojoldu.book.springboot.web.ProfileControllerUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hello-aws.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.jojoldu.book.springboot.Application" />
@@ -163,19 +175,19 @@
     </configuration>
     <list>
       <item itemvalue="Gradle.hello-aws [test]" />
-      <item itemvalue="JUnit.All in hello-aws.test (1)" />
-      <item itemvalue="JUnit.All in hello-aws.test (2)" />
+      <item itemvalue="JUnit.ProfileControllerTest" />
+      <item itemvalue="JUnit.ProfileControllerUnitTest" />
       <item itemvalue="JUnit.All in hello-aws.test (3)" />
       <item itemvalue="JUnit.HelloControllerTest" />
       <item itemvalue="Spring Boot.Application" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ProfileControllerTest" />
+        <item itemvalue="JUnit.ProfileControllerUnitTest" />
         <item itemvalue="Gradle.hello-aws [test]" />
         <item itemvalue="JUnit.All in hello-aws.test (3)" />
         <item itemvalue="JUnit.HelloControllerTest" />
-        <item itemvalue="JUnit.All in hello-aws.test (2)" />
-        <item itemvalue="JUnit.All in hello-aws.test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +205,8 @@
       <workItem from="1665286748601" duration="49818000" />
       <workItem from="1666491840235" duration="686000" />
       <workItem from="1666561715499" duration="16530000" />
-      <workItem from="1668297109330" duration="13284000" />
+      <workItem from="1668297109330" duration="14397000" />
+      <workItem from="1668922451972" duration="3155000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1664867137432</created>
@@ -370,7 +383,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668344165868</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="배포 자동화 기능 추가">
+      <created>1668359367591</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1668359367592</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
