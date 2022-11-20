@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="390e6b66-9b58-43ad-af09-c03b26ae6515" name="Changes" comment="무중단 배포">
+    <list default="true" id="390e6b66-9b58-43ad-af09-c03b26ae6515" name="Changes" comment="무중단 배포2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/appspec.yml" beforeDir="false" afterPath="$PROJECT_DIR$/appspec.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -205,7 +208,7 @@
       <workItem from="1666491840235" duration="686000" />
       <workItem from="1666561715499" duration="16530000" />
       <workItem from="1668297109330" duration="14397000" />
-      <workItem from="1668922451972" duration="6566000" />
+      <workItem from="1668922451972" duration="13744000" />
     </task>
     <task id="LOCAL-00001" summary="first commit">
       <created>1664867137432</created>
@@ -396,7 +399,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668927823130</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="무중단 배포2">
+      <created>1668932695758</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1668932695758</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -429,6 +439,7 @@
     <MESSAGE value="deploy 기능 추가" />
     <MESSAGE value="배포 자동화 기능 추가" />
     <MESSAGE value="무중단 배포" />
-    <option name="LAST_COMMIT_MESSAGE" value="무중단 배포" />
+    <MESSAGE value="무중단 배포2" />
+    <option name="LAST_COMMIT_MESSAGE" value="무중단 배포2" />
   </component>
 </project>
